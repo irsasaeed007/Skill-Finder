@@ -26,20 +26,22 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.aliyousafzai183.Skill_Finder",
-      "permissions": ["NOTIFICATIONS", "RECEIVE_BOOT_COMPLETED"]
+      "permissions": [
+        "NOTIFICATIONS",
+        "RECEIVE_BOOT_COMPLETED"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "18e86c1b-deec-4479-81ec-5b35e41e2740"
-      }
-    },
     "notification": {
       "icon": "./assets/icon.png",
       "color": "#000000"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3164f383-9ed4-4cd9-bc2e-be92f47ae17e"
+      }
     }
-    
   }
 }
